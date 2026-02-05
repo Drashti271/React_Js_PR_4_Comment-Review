@@ -1,16 +1,85 @@
-# React + Vite
+# React JS Comment Review App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React JS application** built using **Vite**.\
+It demonstrates a basic comment/review system with modern React
+practices.
 
-Currently, two official plugins are available:
+## 📁 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    REACT_JS_PR_4_COMMENT_REVIEW
+    │
+    ├── node_modules
+    ├── public
+    ├── src
+    │   ├── assets
+    │   │   └── react.svg
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    │
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── README.md
+    ├── vite.config.js
+    └── yarn.lock
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   React functional components\
+-   Vite for fast development\
+-   Clean folder structure\
+-   ESLint configured\
+-   CSS styling support
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Clone the repository:
+
+    ``` bash
+    git clone <your-repo-url>
+    ```
+
+2.  Install dependencies:
+
+    ``` bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  Run the development server:
+
+    ``` bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+4.  Open browser:
+
+        http://localhost:5173
+
+## 📦 Build for Production
+
+``` bash
+npm run build
+# or
+yarn build
+```
+
+## 🧩 Tech Stack
+
+-   React JS
+-   Vite
+-   JavaScript (ES6+)
+-   CSS
+
+## 👩‍💻 Author
+
+**Drashti Bilimoria**
+
+------------------------------------------------------------------------
+
+✨ Happy Coding!
